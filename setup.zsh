@@ -8,8 +8,8 @@ ZSH_CONFIG_DIR=$(pwd)
 
 # Create .zshenv if it doesn't exist
 if [ ! -f "$HOME/.zshenv" ]; then
-	mkdir $HOME/.zshenv;	 
+	touch $HOME/.zshenv;	 
 fi
 
 # Append our custom ZDOTDIR to .zshenv
-echo "ZDOTDIR=$HOME/$ZSH_CONFIG_DIR" >> $HOME/.zshenv;
+echo "ZDOTDIR=$ZSH_CONFIG_DIR" >> $HOME/.zshenv;
