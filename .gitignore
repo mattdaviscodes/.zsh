@@ -1,0 +1,8 @@
+# Not fit for git
+.sensitive
+/sensitive
+
+# zsh auto-gen files
+.zsh_history
+.zcompdump
+
