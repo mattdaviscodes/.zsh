@@ -5,6 +5,5 @@ conditional_source .sensitive
 
 conditional_source .prompt
 conditional_source .zstyle
-conditional_source .suf
 conditional_source .nvm
 conditional_source .direnv	# Must be last line
