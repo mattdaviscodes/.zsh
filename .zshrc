@@ -1,7 +1,7 @@
 source $ZDOTDIR/conditional_source.zsh
 
 # Imports which are not safe for public version control
-conditional_source .sensitive
+conditional_source sensitive.zsh
 
 source $ZDOTDIR/alias.zsh
 source $ZDOTDIR/prompt.zsh
