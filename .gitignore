@@ -5,6 +5,7 @@
 # zsh auto-gen files
 .zsh_history
 .zcompdump
+.zsh_sessions
 
 # other
 .DS_Store
