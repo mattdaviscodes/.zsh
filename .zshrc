@@ -1,7 +1,5 @@
-source $ZDOTDIR/conditional_source.zsh
-
-# Imports which are not safe for public version control
-conditional_source sensitive.zsh
+# Source all files too sensitive for source control
+for f (./sensitive/*.zsh); do source $f; done
 
 source $ZDOTDIR/alias.zsh
 source $ZDOTDIR/prompt.zsh

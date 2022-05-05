@@ -1,3 +1,1 @@
-source $ZDOTDIR/conditional_source.zsh
-
-conditional_source sensitive/suf.zsh
+for f (./sensitive/*.zsh); do source $f; done
