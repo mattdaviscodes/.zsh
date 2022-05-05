@@ -1,10 +1,10 @@
-# Source all files too sensitive for source control
-for f (./sensitive/*.zsh); do source $f; done
-
 source $ZDOTDIR/alias.zsh
 source $ZDOTDIR/prompt.zsh
 source $ZDOTDIR/zstyle.zsh
 source $ZDOTDIR/nvm.zsh
+
+# Source all files too sensitive for source control
+for f (./sensitive/*.zsh); do source $f; done
 
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
