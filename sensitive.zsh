@@ -1,1 +1,0 @@
-for f (./sensitive/*.zsh); do source $f; done
