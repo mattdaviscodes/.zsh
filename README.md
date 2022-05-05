@@ -6,6 +6,7 @@ This project consolidates all zsh configs into a single directory with a logical
 This project should be cloned directly into your home directory. Then:
 
 ```zsh
+cd .zsh
 chmod +x setup.zsh
 ./setup.zsh
 ```
